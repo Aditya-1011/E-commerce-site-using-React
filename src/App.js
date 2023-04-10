@@ -1,6 +1,6 @@
 
 import './App.css';
-import { Home } from './Componentt/Home';
+// import { Home } from './Componentt/Home';
 
 import {NAV} from './Pages/NAV';
 
