@@ -39,6 +39,7 @@ const Right=styled.div`
 flex:1;
 display:flex;
 justify-content:flex-end;
+
 align-item:center;
 
 
@@ -48,6 +49,7 @@ const MenuItem=styled.div`
 font-size:14;
 cursor:pointer;
 margin-left:20px;
+font-weight:20;
 
 `
 const Language=styled.span`
@@ -84,12 +86,15 @@ export const NAV = () => {
     </Language>
     <SearchContainer>
         <Input/>
-        <Search style={{color:"gray",fontSize:16}}/>
+        <Search 
+        
+
+        style={{color:"gray",fontSize:16}}/>
     </SearchContainer>
     </Left>
-    <Center><Logo>Buy Clothes</Logo></Center>
-    <Right ><MenuItem>Register</MenuItem>
-    <MenuItem>Sign In</MenuItem>
+    <Center><Logo>SNITCH</Logo></Center>
+    <Right ><MenuItem>REGISTER</MenuItem>
+    <MenuItem>SIGN IN</MenuItem>
     <MenuItem>
     <Badge badgeContent={4} color="primary">
       <ShoppingCartOutlined />
@@ -107,4 +112,5 @@ export const NAV = () => {
     
   )
 }
+export default NAV;
  

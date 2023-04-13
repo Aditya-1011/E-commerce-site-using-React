@@ -3,10 +3,15 @@
  height:30px;
  background-color:teal;
  color:white;
+ display:flex;
+ align-item:center;
+ justify-content:center;
+ font-size:20px;
+ font-weight:500;
  `
 
 export const Announcement = () => {
   return (
-    <div>Announcement</div>
+    <Container>Super Deal! Free Shipping on orders above $50</Container>
   )
 }
