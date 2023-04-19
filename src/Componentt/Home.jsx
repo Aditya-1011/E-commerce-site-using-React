@@ -1,8 +1,16 @@
-import React from 'react'
-import { Announcement } from './Announcement'
-import NAV from '../Pages/NAV'
+
+// import { Announcement } from './Announcement'
+// import NAV from '../Pages/NAV'
  
-import { Change } from './Change'
+// import { Change } from './Change'
+// import Categories from './Categories'
+// import Things from './Things'
+// import Newsletter from './Newsletter'
+// import End from './End'
+// import ProductList from '../Pages/ProductList'
+import Productss from '../Pages/Productss'
+
+
 
 
 
@@ -13,9 +21,17 @@ import { Change } from './Change'
 export const Home = () => {
   return (
     <div>
-      <Announcement/>
+      {/* <Announcement/>
       <NAV />
       <Change />
+      <Categories />
+      <Things />
+      <Newsletter />
+      <End /> */}
+
+      {/* <ProductList /> */}
+      <Productss />
+      
       
       
       

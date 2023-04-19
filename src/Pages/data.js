@@ -21,3 +21,54 @@ export const sliderItems = [
       bg: "9DD9D2",
     },
   ];
+  export const categories = [
+    {
+      id: 1,
+      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      title: "SHIRT STYLE!",
+    },
+    {
+      id: 2,
+      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      title: "LOUNGEWEAR LOVE",
+    },
+    {
+      id: 3,
+      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      title: "LIGHT JACKETS",
+    },
+  ];
+  export const popularProducts = [
+    {
+      id:1,
+      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+    },
+    {
+      id:2,
+      img:"https://cdn.shopify.com/s/files/1/0732/1298/5617/files/regular_hoodie_1270x.jpg?v=1678770376",
+    },
+    {
+      id:3,
+      img:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+    },
+    {
+      id:4,
+      img:"https://cdn.shopify.com/s/files/1/0732/1298/5617/products/itachibacknewoversized_940x.jpg?v=1680777667",
+    },
+    {
+      id:5,
+      img:"https://cdn.shopify.com/s/files/1/0732/1298/5617/files/varsity_categoru_785x.jpg?v=1678770886",
+    },
+    {
+      id:6,
+      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+    },
+    {
+      id:7,
+      img:"https://cdn.shopify.com/s/files/1/0732/1298/5617/products/oversizedblackfrontwebsitesakura_1066x.jpg?v=1678820694",
+    },
+    {
+      id:8,
+      img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
+    },
+  ]

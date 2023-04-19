@@ -109,7 +109,7 @@ export const Change = () => {
     <Wrapper slideIndex={slideIndex}>
     {sliderItems.map((item)=>(  
 
-    <Slide bg={item.bg}>
+    <Slide bg={item.bg} key={item.id}>
       <Imgcontainer>
         <Image src={item.img} />
       </Imgcontainer> 
